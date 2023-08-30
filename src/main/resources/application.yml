@@ -8,4 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///git-local-repo
+          uri: https://github.com/sshwn/spring-cloud-config-08.git
+#          uri: file:///git-local-repo
+#          username: private 일 경우
+#          password: priavte 일 경우

@@ -1,6 +1,7 @@
 encrypt:
 #  key: abcdefghijklmnopqrstuvwxyz0123456789
   key-store:
-    location: file:///F:/keystore/apiEncryptionKey.jks
+#    location: file:///F:/keystore/apiEncryptionKey.jks
+    location: file:/apiEncryptionKey.jks  # 컨테이너 내부에있는 파일명 (root에 복사된 파일)
     password: test1234
     alias: apiEncryptionKey

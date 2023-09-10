@@ -17,8 +17,8 @@ spring:
         native:
           search-locations: file:///F:/native-file-repo
         git:
-          uri: https://github.com/sshwn/spring-cloud-config-08.git
 #          uri: file:///git-local-repo
+          uri: https://github.com/sshwn/spring-cloud-config-08.git
 #          username: private 일 경우
 #          password: priavte 일 경우
 
